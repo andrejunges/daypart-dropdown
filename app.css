@@ -1,0 +1,53 @@
+#customDD {
+  width: 200px;
+}
+
+.webui-popover-custom {
+  border-radius: 2px;
+}
+
+.container {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.item-optimal {
+  border-bottom: 1px solid #ddd;
+}
+
+.item {
+  padding: 10px;  
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.item:hover {
+  background: #f1f1f1;
+}
+
+.label-text {
+  flex: 1
+}
+
+.label-bid {
+  padding-left: 15px;
+  color: #999;
+}
+
+.label-units {
+  width: 40px;
+  text-align: center;
+  padding: 2px 0;
+  background: red;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.bg-green {
+  background: green !important;
+}
+
+.item-selected {
+  background: #ddd
+}
